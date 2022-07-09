@@ -16,7 +16,7 @@ git clone https://github.com/esx-framework/esx-legacy.git
 
 ### Using Release
 - Download https://github.com/esx-framework/esx-legacy/archive/refs/tags/1.7.5.zip
-- Move all dependencies and esx_identity to you resource folder
+- Move all dependencies and esx_skin to you resource folder
 
 ## Installation
 - Import `esx_skin.sql` to your database
