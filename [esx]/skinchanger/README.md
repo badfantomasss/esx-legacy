@@ -2,27 +2,26 @@
 
 skinchanger is a resource that makes it easy to set and get player ped clothing. It supports the freemode peds `mp_m_freemode_01` and `mp_f_freemode_01`.
 
-## Download & Installation
-
-### Using [fvm](https://github.com/qlaffont/fvm-installer)
-```
-fvm install --save esx-org/skinchanger
-```
+## Download
 
 ### Using Git
+- Clone repository from github
+- Move skinchanger to you resource folder
+
 ```
-cd resources
-git clone https://github.com/ESX-Org/skinchanger skinchanger
+cd Downloads
+git clone https://github.com/esx-framework/esx-legacy.git
 ```
 
-### Manually
-- Download https://github.com/ESX-Org/skinchanger/archive/master.zip
+### Using Release
+- Download https://github.com/esx-framework/esx-legacy/archive/refs/tags/1.7.5.zip
+- Move skinchanger to you resource folder
 
 ## Installation
 - Add this to your `server.cfg`:
 
 ```
-start skinchanger
+ensure skinchanger
 ```
 
 ### Usage
