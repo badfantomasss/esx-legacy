@@ -2,13 +2,14 @@
 
 ## Requirements
 * Dependencies For Full Functionality
-  * [esx_skin](https://github.com/badfantomasss/esx-legacy/tree/main/%5Besx%5D/esx_skin)
+  * [esx_skin](https://github.com/esx-framework/esx-legacy/tree/main/%5Besx%5D/esx_skin)
 
 ## Download
 
 ### Using Git
 - Clone repository from github
 - Move all dependencies and esx_identity to you resource folder
+
 ```
 cd Downloads
 git clone https://github.com/esx-framework/esx-legacy.git
