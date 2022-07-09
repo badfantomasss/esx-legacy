@@ -1,28 +1,26 @@
 # esx_addonaccount
 
-## Download & Installation
-
-### Using [fvm](https://github.com/qlaffont/fvm-installer)
-```
-fvm install --save --folder=esx esx-org/esx_addonaccount
-```
+## Download
 
 ### Using Git
+- Clone repository from github
+- Move esx_addonaccount to you resource folder
+
 ```
-cd resources
-git clone https://github.com/ESX-Org/esx_addonaccount [esx]/esx_addonaccount
+cd Downloads
+git clone https://github.com/esx-framework/esx-legacy.git
 ```
 
-### Manually
-- Download https://github.com/ESX-Org/esx_addonaccount/archive/master.zip
-- Put it in the `[esx]` directory
+### Using Release
+- Download https://github.com/esx-framework/esx-legacy/archive/refs/tags/1.7.5.zip
+- Move esx_addonaccount to you resource folder
 
 ## Installation
 - Import `esx_addonaccount.sql` in your database
 - Add this in your `server.cfg`:
 
 ```
-start esx_addonaccount
+ensure esx_addonaccount
 ```
 
 ## Usage
