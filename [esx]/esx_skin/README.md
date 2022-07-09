@@ -26,6 +26,13 @@ git clone https://github.com/esx-framework/esx-legacy.git
 ensure esx_skin
 ```
 
+## Commands
+
+```
+/skin
+/skinsave
+```
+
 # Legal
 ### License
 esx_skin - skin selector for ESX

@@ -27,7 +27,7 @@ git clone https://github.com/esx-framework/esx-legacy.git
 ensure esx_identity
 ```
 
-### Commands
+## Commands
 
 ## Not debug
 ```

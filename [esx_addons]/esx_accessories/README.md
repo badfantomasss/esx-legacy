@@ -32,7 +32,7 @@ git clone https://github.com/esx-framework/esx-legacy.git
 ensure esx_accessories
 ```
 
-### Commands
+## Commands
 
 ```
 /accessory
