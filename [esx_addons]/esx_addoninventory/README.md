@@ -1,28 +1,26 @@
 # esx_addoninventory
 
-## Download & Installation
-
-### Using [fvm](https://github.com/qlaffont/fvm-installer)
-```
-fvm install --save --folder=esx esx-org/esx_addoninventory
-```
+## Download
 
 ### Using Git
+- Clone repository from github
+- Move esx_addoninventory to you resource folder
+
 ```
-cd resources
-git clone https://github.com/ESX-Org/esx_addoninventory [esx]/esx_addoninventory
+cd Downloads
+git clone https://github.com/esx-framework/esx-legacy.git
 ```
 
-### Manually
-- Download https://github.com/ESX-Org/esx_addoninventory/archive/master.zip
-- Put it in the `[esx]` directory
+### Using Release
+- Download https://github.com/esx-framework/esx-legacy/archive/refs/tags/1.7.5.zip
+- Move esx_addoninventory to you resource folde
 
 ## Installation
 - Import `esx_addoninventory.sql` in your database
 - Add this in your `server.cfg`:
 
 ```
-start esx_addoninventory
+ensure esx_addoninventory
 ```
 
 ## Usage
